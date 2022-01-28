@@ -7,6 +7,8 @@ const config: ConnectionOptions = {
   username: 'mymenu',
   password: '123',
   database: 'mymenu',
+  entities: [__dirname + '/**/*.entity{.ts,.js}'],
+  synchronize: true,
 };
 
 export default config;
